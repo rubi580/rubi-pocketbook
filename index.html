@@ -1,0 +1,35 @@
+<<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>ルビのおこづかい帳</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>ルビのおこづかい帳</h1>
+  <input type="date" id="date">
+  <input type="text" id="item" placeholder="項目">
+  <input type="number" id="amount" placeholder="金額">
+  <label for="category">カテゴリ:</label>
+<input type="text" id="category" name="category" placeholder="例: 食費、遊び、文具 など">
+
+  <button onclick="addEntry()">追加</button>
+
+  <table id="list">
+    <thead>
+      <tr>
+        <th>日付</th>
+        <th>項目</th>
+        <th>カテゴリ</th>
+        <th>金額</th>
+        <th>削除</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <p id="total">合計: 0円</p>
+
+  <script src="script.js"></script>
+</body>
+</html>
