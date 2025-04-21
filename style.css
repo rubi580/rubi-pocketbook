@@ -1,0 +1,63 @@
+body {
+    background: linear-gradient(135deg, #fff0f5, #ffe4e1);
+    font-family: "ヒラギノ角ゴシック", sans-serif;
+    text-align: center;
+    margin: 50px;
+    color: #333;
+  }
+  
+  h1 {
+    font-size: 36px;
+    color: white;
+    background-color: #ff66a3;
+    padding: 20px;
+    border-radius: 20px;
+    display: inline-block;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  }
+  
+  form {
+    margin-top: 30px;
+  }
+  
+  input, button {
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  button {
+    background-color: #ff99cc;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  button:hover {
+    transform: scale(1.05);
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 30px;
+  }
+  
+  li {
+    background-color: #fff;
+    margin: 8px auto;
+    padding: 10px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  p {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  
